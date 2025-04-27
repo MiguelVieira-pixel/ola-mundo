@@ -1,0 +1,1 @@
+print(" Nome\tIdade\tProgama")
