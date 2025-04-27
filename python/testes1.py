@@ -1,1 +1,0 @@
-print(" Nome\tIdade\tProgama")
