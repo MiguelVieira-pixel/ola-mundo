@@ -7,3 +7,6 @@ while resp != "s" and resp != "n":
     resp = resp.lower()
 if resp == "s":
     print("nome:{}\t/idade:{}".format(nome, idade))
+else:
+    print("Você escolheu não continuar.")
+    
