@@ -4,15 +4,16 @@ r = 0
 b = 0
 count = 0
 
-def is_valid_response(resp):
+def is_valid_response():
+    resp = input("Digite o tipo de vinho (t = tinto, r = rosé, b = branco) ou 'f' para finalizar:")
+    resp = resp.lower()
     while resp != "t" and resp != "r" and resp != "b" and resp != "f":
         resp = input("Resposta inválida. Tente novamente:")
         resp = resp.lower()
-    return resp in ["t", "r", "b", "f"]
+    return resp 
 
-resp = input("Digite o tipo de vinho (t = tinto, r = rosé, b = branco) ou 'f' para finalizar:")
-resp = resp.lower()
-is_valid_response(resp)
+
+(resp) = is_valid_response()
 if resp == "f":
     print("Nenhum vinho foi cadastrado.")
     exit() 
@@ -27,9 +28,8 @@ while resp != "f":
     elif resp == "b":
         b += 1
         count += 1
-    resp = input("Digite o tipo de vinho (t = tinto, r = rosé, b = branco) ou 'f' para finalizar:")
-    resp = resp.lower()
-    is_valid_response(resp)
+
+    resp = is_valid_response()
 
 porcent_t = (t / count) * 100
 porcent_r = (r / count) * 100
