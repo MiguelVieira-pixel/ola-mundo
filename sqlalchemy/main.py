@@ -19,10 +19,6 @@ Base.metadata.create_all(engine)
 
 
 with _Session() as session:
-    usuario = User(name='Leugim', age=17)
-    session.add(usuario)
-    session.
-
-#    usuarios = session.query(User).all()
-#    for usuario in usuarios:
-#        print(usuario.name)
+    usuario = session.query(User).filter_by(id=2).first()
+    session.delete(usuario)
+    session.commit()
