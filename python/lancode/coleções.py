@@ -17,6 +17,6 @@
 # minhas_tuplas = [('maçã', 'banana'), ('verde', 'vermelho')]
 # print(minhas_tuplas[1][0])
 
-dados = {'nome':'largatixq', 'idade':18}
-dados['idade'] = 23
-print(dados['idade'])
+# dados = {'nome':'largatixq', 'idade':18}
+# dados['idade'] = 23
+# print(dados)
