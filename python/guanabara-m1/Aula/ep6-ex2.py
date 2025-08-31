@@ -1,0 +1,5 @@
+num = str(input('Digite algo: '))
+print('Ele é numérico: {}'.format(num.isnumeric()))
+print('Ele é alfabeto; {}'.format(num.isalpha()))
+print('Ele é totalmente maiusculo: {}'.format(num.isupper()))
+print('Ele é totalmente minusculo: {}'.format(num.islower()))
