@@ -6,7 +6,7 @@ int main() {
     char ch;
     printf("\n Digite algum caractere: ");
     fflush(stdin);
-    ch=getche();
+    ch = getche();
     printf("\n A tecla digitada = %c", ch);
     system("pause > null");
 }
