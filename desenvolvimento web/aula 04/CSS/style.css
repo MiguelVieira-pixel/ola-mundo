@@ -1,0 +1,23 @@
+div{
+    background-color: lightgray;
+    width: 500px;
+    height: 400px;
+    border: 15px solid green;
+    padding: 25px;
+    text-align: justify;
+    margin: 30px;
+}
+
+.inicio{
+    width: 300px;
+    border: 15px solid red;
+    padding: 25px;
+    margin: 20px;
+}
+
+#inicio1{
+    width: 400px;
+    border: 15px solid yellowgreen;
+    padding: 25px;
+    margin: 20px;
+}

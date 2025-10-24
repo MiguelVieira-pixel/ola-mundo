@@ -1,0 +1,24 @@
+code{
+    background-color: darkgreen;
+    border-radius: 10px;
+    color: rgb(211, 236, 232);
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 22px;
+    text-align: center;
+}
+
+header, section, aside, footer{
+    margin: 0 1% 22px 1%;
+}
+
+section{
+    float: left;
+    width: 31%;
+}
+
+.footer{
+    clear: both;
+    margin-bottom: 0;
+    color: rgb(101, 6, 190);
+}
