@@ -24,5 +24,49 @@
             </ul>
         </nav>
     </header>
+
+    <h2>FORMULÁRIO TETRIS</h2>
+
+    <form action="processar_dados.html" method="get">
+        <div>
+            <br>
+            <label for="nome">nome: </label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <br>
+            <label for="pass">Senha: </label>
+                <input type="password" name="pass" id="pass">
+        </div>
+        <div>
+            <br>
+            <label for="msg">Mensagem: </label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <br>
+            <p>Exemplos de Checkbox e radion Buttons</p>
+            <p>CheckBox: </p>
+            <input type="checkbox" name="idiomas" id="idiomas" value="p">Português  <br>
+            <input type="checkbox" name="idiomas" id="idiomas" value="e">Inglês  <br>
+            <input type="checkbox" name="idiomas" id="idiomas" value="i">Italiano   <br>
+        </div>
+        <div>
+            <br>
+            <p>Radion Button</p>
+            <input type="radio" name="sexo" id="sexo" value="f">Feminino    <br>
+            <input type="radio" name="sexo" id="sexo" value="m">Masculino   <br>
+            <input type="radio" name="sexo" id="sexo" value="o">Outro
+               <br>
+            <br><br>
+            <button type="submit">Enviar</button>
+        </div>
+        
+    </form>
 </body>
 </html>
